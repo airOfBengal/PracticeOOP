@@ -8,6 +8,8 @@ package practiceoop;
 
 import practiceoop.overridingAndHiding.Animal;
 import practiceoop.overridingAndHiding.Cat;
+import practiceoop.overridingAndHiding.interfaceMethods.Flyer;
+import practiceoop.overridingAndHiding.interfaceMethods.Pegusus;
 
 /**
  *
@@ -20,13 +22,9 @@ public class PracticeOOP {
      */
     public static void main(String[] args) {
        Animal cat = new Cat();
+       Animal animal = new Animal();
        
-       Animal.testClassMethod();
-       cat.testInstanceMethod();
-    }
-    
+        Flyer p = new Pegusus();
+        System.out.println(p.identifyMyself());
+    }    
 }
-
-
-
-
