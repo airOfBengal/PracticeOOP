@@ -6,9 +6,6 @@
 
 package com.air.practiceDesignPatterns.creational.prototype;
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
 /**
  *
  * @author AIR
